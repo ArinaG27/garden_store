@@ -2,7 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 30px;
+  margin: 0 20px;
+}
+.card_start {
+ display: flex;
+ justify-content: space-between;
+ width: 700px;
+ margin: 0 20px;
+}
+
+.card{
+  font-size: 40px;
+  font-weight: 700;
+  margin: 38px 20px;
 }
 
 .cart_container {
@@ -15,6 +27,8 @@
 
   .empty {
     margin: 105px 0;
+    font-size: 30px;
+    font-weight: 600;
   }
   
   .button_block {
@@ -22,26 +36,91 @@
     justify-content: space-between;
 }
 
-.button_block button {
-  border: 2px solid #34495E;
-  color: #34495E;
-  padding: 4px;
-  width: 161px;
-  font-size: 15px;
-  background-color: transparent;
+.order_button {
+  border: 2px solid #339933;
+  border-radius: 17px;
+  color: white;
+  padding: 5px;
+  width: 446px;
+  height: 76px;
+  font-size: 28px;
+  font-weight: 700;
+  background-color: #339933;
+  margin: 20px;
   cursor: pointer;
 }
 
-.button_block button:hover {
-  background-color: #34495E;
+.order_form{
+  border: 2px solid black;
+  border-radius: 17px;
   color: white;
+  padding: 5px;
+  width: 444px;
+  height: 76px;
+  margin: 0 20px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.order_button:hover {
+  background-color: white;
+  color: #339933;
 }
 
 .button_block p {
   font-size: 25px;
 }
 
-.button_block span {
-  font-weight: 700;
-  margin-right: 15px;
+.total {
+  font-size: 24px;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.sum{
+  font-size: 32px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.total_container{
+  position: absolute;
+  border: 2px solid #34495E;
+  color: #34495E;
+  width: 496px;
+  height: 393px;
+  border-radius: 21px;
+  margin-left: 750px;
+  margin-top: 10px;
+
+}
+
+.order{
+  width: 225px;
+  height: 36px;
+  font-weight: 600;
+  font-size: 28px;
+  margin: 25px;
+}
+
+.form{
+  margin:35px 0 ;
+}
+
+a:hover{
+  color: #339933;
+}
+
+.clear{
+  border: 2px solid #339933;
+  border-radius: 17px;
+  color: white;
+  padding: 5px;
+  width: 346px;
+  height: 56px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #339933;
+  margin: 0 360px;
+  cursor: pointer;
 }

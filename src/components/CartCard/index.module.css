@@ -1,7 +1,9 @@
 .cart_card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 180px);
+  column-gap: 15px;
+  padding: 15px;
+  justify-items: flex-start;
 }
 
 .cart_card img {
@@ -12,13 +14,50 @@
 
 .triggers {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  width: 80px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 7px;
+  font-size: 20px;
+  padding: 2px;
+  margin-top: 70px;
 }
 
 .triggers button {
   height: 20px;
   width: 23px;
-  border: 1px solid black;
-  border-radius: 0;
-  background-color: #D9D9D9;
+  border: 1px solid white;
+  background-color: white;
+  font-size: 20px;
+
+}
+
+.card_title{
+  margin: 0;
+}
+
+.price{
+  font-weight: 600;
+  font-size: 35px;
+  margin-left: 20px;
+  margin-top: 50px;
+
+}
+
+.discont_price{
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: line-through;
+  color: #8B8B8B;
+  margin-top: 50px;
+}
+
+.cross{
+  color: #8B8B8B;
+  margin-left: 80px;
+}
+
+.line{
+  width: 700px;
 }
