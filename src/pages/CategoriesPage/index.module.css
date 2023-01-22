@@ -1,0 +1,19 @@
+.categories_section {
+  display: grid;
+  grid-template-columns: repeat(4, 318px);
+  column-gap: 15px;
+  row-gap: 38px;
+  padding: 15px;
+  }
+  
+  .categories_block h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 30px;
+  }
+
+  .categories_block{
+    max-width: 1380px;
+    margin: 0 auto;
+  }

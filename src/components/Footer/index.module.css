@@ -1,0 +1,60 @@
+.footer_block {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1380px;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 20px;
+    
+  }
+
+.kontakts{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+  }
+
+.tel{
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 130%;
+  }
+
+.adresse{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+  }
+
+  .town{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+  }
+
+  .working{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+  }
+
+  .around{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+  }
+
+  .instogram{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    width: 230px;
+    gap: 17px;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+  }
+
+  .instogram img{
+    margin: 0 20px;
+  }

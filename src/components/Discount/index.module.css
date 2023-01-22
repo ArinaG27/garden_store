@@ -1,0 +1,53 @@
+.discount_section {
+  background: linear-gradient(262.69deg, #339933 -0.43%, #006300 104.36%);
+    /* background-color: #086a08; */
+    height: 500px;
+  }
+
+  .discount_sub_section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1380px;
+    margin: 0 auto;
+  }
+
+  .discount{
+    margin: 90px 50px;
+    color: #FFFFFF;
+  }
+
+  .discount_img{
+    margin: 51px;
+  }
+
+  .discount h1{
+    font-size: 90px;
+    line-height: 120%; 
+    font-weight: 700;
+  }
+
+  .discount p{
+    font-size: 50px;
+    line-height: 120%; 
+    font-weight: 700;
+  }
+
+  .discount_form{
+    background-color: #FFFFFF;
+    border-radius: 13px;
+    padding: 15px 100px;
+    margin-left: 51px;
+    color: black;
+  }
+
+  .discount_button{
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 13px;
+    padding: 9px 105px;
+    margin-left: 51px;
+    font-weight: 700;
+    font-size: 23px;
+    color: #FFFFFF;
+
+  }
