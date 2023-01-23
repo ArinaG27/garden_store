@@ -50,12 +50,16 @@
   font-size: 20px;
   text-decoration: line-through;
   color: #8B8B8B;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .cross{
   color: #8B8B8B;
-  margin-left: 80px;
+  margin-left: 90px;
+  background-color: white;
+  border: none;
+  font-size: 20px;
+
 }
 
 .line{

@@ -1,39 +1,43 @@
-.card_section{
+.card_page {
+  max-width: 1380px;
+  margin: 19px auto;
+}
+
+.card_section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 20px;
 }
 .card_start {
- display: flex;
- justify-content: space-between;
- width: 700px;
- margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  margin: 0 20px;
 }
 
-.card{
+.card {
   font-size: 40px;
   font-weight: 700;
   margin: 38px 20px;
 }
 
 .cart_container {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin: 50px 0;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 50px 0;
+}
 
+.empty {
+  margin: 105px 0;
+  font-size: 30px;
+  font-weight: 600;
+}
 
-  .empty {
-    margin: 105px 0;
-    font-size: 30px;
-    font-weight: 600;
-  }
-  
-  .button_block {
-    display: flex;
-    justify-content: space-between;
+.button_block {
+  display: flex;
+  justify-content: space-between;
 }
 
 .order_button {
@@ -50,7 +54,7 @@
   cursor: pointer;
 }
 
-.order_form{
+.order_form {
   border: 2px solid black;
   border-radius: 17px;
   color: white;
@@ -77,25 +81,24 @@
   padding: 20px;
 }
 
-.sum{
+.sum {
   font-size: 32px;
   font-weight: 600;
   padding: 20px;
 }
 
-.total_container{
+.total_container {
   position: absolute;
-  border: 2px solid #34495E;
-  color: #34495E;
+  border: 2px solid #34495e;
+  color: #34495e;
   width: 496px;
   height: 393px;
   border-radius: 21px;
   margin-left: 750px;
   margin-top: 10px;
-
 }
 
-.order{
+.order {
   width: 225px;
   height: 36px;
   font-weight: 600;
@@ -103,15 +106,15 @@
   margin: 25px;
 }
 
-.form{
-  margin:35px 0 ;
+.form {
+  margin: 35px 0;
 }
 
-a:hover{
+a:hover {
   color: #339933;
 }
 
-.clear{
+.clear {
   border: 2px solid #339933;
   border-radius: 17px;
   color: white;
@@ -123,4 +126,8 @@ a:hover{
   background-color: #339933;
   margin: 0 360px;
   cursor: pointer;
+}
+
+.errors {
+  margin: 2px 50px;
 }
