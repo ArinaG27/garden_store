@@ -11,7 +11,8 @@ export default function CartPage() {
     register,
     formState: { errors },
     handleSubmit,
-  } = useForm();
+    reset,
+  } = useForm({ mode: "onBlur" });
   const cart = useSelector((state) => state.cart);
   const dispatch = useDispatch();
 
@@ -19,7 +20,10 @@ export default function CartPage() {
     required: "*Enter your phone number ",
   });
 
-  const submit = (data) => console.log(data);
+  const submit = (data) => {
+    console.log(data);
+    reset();
+  };
 
   return (
     <div className={s.card_page}>
@@ -71,9 +75,7 @@ export default function CartPage() {
                 <div className={s.errors}>
                   {errors.phone && <p>{errors.phone?.message}</p>}
                 </div>
-                <button onclick="form.reset()" className={s.order_button}>
-                  Order
-                </button>
+                <button className={s.order_button}>Order</button>
               </form>
             </div>
 

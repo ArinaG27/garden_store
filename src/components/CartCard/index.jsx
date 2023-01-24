@@ -47,7 +47,6 @@ export default function CartCard({
             x
           </button>
           <p className={s.discont_price}>
-            {" "}
             {(discont_price * count).toFixed(2)} $
           </p>
         </div>

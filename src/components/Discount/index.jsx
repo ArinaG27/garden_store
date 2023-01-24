@@ -8,12 +8,16 @@ export default function Discount() {
     register,
     formState: { errors },
     handleSubmit,
+    reset,
   } = useForm();
   const phoneRegister = register("phone", {
     required: "*Enter your phone number ",
   });
 
-  const submit = (data) => console.log(data);
+  const submit = (data) => {
+    console.log(data);
+    reset();
+  };
   return (
     <section className={s.discount_section} id="discount">
       <div className={s.discount_sub_section}>
